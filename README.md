@@ -14,7 +14,7 @@ c99 spaceinvaders.c -o spaceinvaders -lncurses
 ```
 And to state the obvious, make sure the *ncurses-5.9* folder is in the current directory.
 Recommended window size of minimum 130 columns and 30 rows.
-**< >** arrows to move left and right and **^** to shoot, **q** to quit.
+**← →** keys to move left and right and **↑** key to shoot, **q** to quit.
 
 ## Known quirks
 There are a few small kinks that have yet to be sorted out.
