@@ -1,6 +1,10 @@
 # Space Invaders!
+![Splash and game play screen](https://github.com/ornberg/space-invaders/blob/master/screenshot.png)
 My take on the classic arcade game, originally developed by Tomohiro Nishikado in 1987.
 Initially made for a first year assignment at Lancaster University.
+
+## Dependencies
+* ncurses 5.9 which you can grab from ftp://ftp.gnu.org/gnu/ncurses/
 
 ## Compile & run
 In a terminal window enter
@@ -8,6 +12,7 @@ In a terminal window enter
 c99 spaceinvaders.c -o spaceinvaders -lncurses
 ./spaceinvaders
 ```
+And to state the obvious, make sure the *ncurses-5.9* folder is in the current directory.
 Recommended window size of minimum 130 columns and 30 rows.
 **< >** arrows to move left and right and **^** to shoot, **q** to quit.
 
